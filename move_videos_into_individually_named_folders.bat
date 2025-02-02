@@ -1,3 +1,36 @@
+::==========================================================================
+:: move_videos_into_individually_named_folders.bat - USER GUIDE
+::==========================================================================
+:: PURPOSE:
+::   Automatically moves each video file in the current directory 
+::   into its own individually named folder.
+::
+:: SUPPORTED VIDEO FORMATS:
+::   - MP4, MKV, AVI, MOV, M4V, M2TS, MTS, TS
+::   - WMV, FLV, WEBM, 3GP, OGV, VOB
+::   - MPG, MPEG, M2V
+::
+:: IMPORTANT SAFETY INSTRUCTIONS:
+:: 1. ALWAYS backup your files before running this script
+:: 2. Run ONLY in the specific directory containing video files
+:: 3. Do NOT modify files during script execution
+::
+:: EXECUTION STEPS:
+:: - Double-click batch file
+:: - Confirm two warning prompts
+:: - Wait for operation to complete
+::
+:: WHAT THE SCRIPT DOES:
+:: - Creates a new folder for each video file
+:: - Moves corresponding video file into its folder
+:: - Skips hidden files and the batch file itself
+::
+:: TROUBLESHOOTING:
+:: - Ensure you have write permissions in the directory
+:: - Close any applications using the video files
+::
+:: CAUTION: USE AT YOUR OWN RISK
+::==========================================================================
 @echo off
 setlocal enabledelayedexpansion
 
