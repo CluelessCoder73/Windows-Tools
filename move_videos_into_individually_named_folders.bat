@@ -7,7 +7,7 @@
 ::
 :: SUPPORTED VIDEO FORMATS:
 ::   - MP4, MKV, AVI, MOV, M4V, M2TS, MTS, TS
-::   - WMV, FLV, WEBM, 3GP, OGV, VOB
+::   - WMV, ASF, FLV, WEBM, 3GP, OGV, VOB
 ::   - MPG, MPEG, M2V
 ::
 :: IMPORTANT SAFETY INSTRUCTIONS:
@@ -48,8 +48,8 @@ if errorlevel 2 (
     exit /b
 )
 
-:: Set supported HandBrake video formats (modify as needed)
-set "extensions=*.mp4 *.mkv *.avi *.mov *.m4v *.m2ts *.mts *.ts *.wmv *.flv *.webm *.3gp *.ogv *.vob *.mpg *.mpeg *.m2v"
+:: Set supported video formats (modify as needed)
+set "extensions=*.mp4 *.mkv *.avi *.mov *.m4v *.m2ts *.mts *.ts *.wmv *.asf *.flv *.webm *.3gp *.ogv *.vob *.mpg *.mpeg *.m2v"
 
 :: Process files
 for %%f in (%extensions%) do (
