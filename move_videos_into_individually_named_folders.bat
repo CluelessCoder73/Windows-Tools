@@ -25,6 +25,10 @@
 :: - Moves corresponding video file into its folder
 :: - Skips hidden files and the batch file itself
 ::
+::   NOTE: If 2 (or more) videos have the same name 
+::   (but different extensions), they will both be 
+::   placed in the same folder.
+::
 :: TROUBLESHOOTING:
 :: - Ensure you have write permissions in the directory
 :: - Close any applications using the video files
